@@ -1,5 +1,6 @@
 %define		status		alpha
 %define		pearname	OpenID
+%define		php_min_version 5.2.0
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP implementation of OpenID 1.1 and 2.0
 Name:		php-pear-OpenID
@@ -14,8 +15,10 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.654
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(date)
 Requires:	php(dom)
+Requires:	php(filter)
 Requires:	php(hash)
 Requires:	php(mbstring)
 Requires:	php(pcre)
