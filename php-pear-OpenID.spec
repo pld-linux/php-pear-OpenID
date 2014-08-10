@@ -4,12 +4,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP implementation of OpenID 1.1 and 2.0
 Name:		php-pear-OpenID
-Version:	0.3.3
+Version:	0.4.0
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	6870b707b87cff214326af4f47efe0fe
+# Source0-md5:	9c8dc4ff7d77f747e3fb1cdb65a6105b
 URL:		http://pear.php.net/package/OpenID/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
