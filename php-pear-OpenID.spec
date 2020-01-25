@@ -1,7 +1,6 @@
 %define		status		alpha
 %define		pearname	OpenID
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PHP implementation of OpenID 1.1 and 2.0
 Name:		php-pear-OpenID
 Version:	0.4.0
